@@ -35,7 +35,7 @@ module.exports = () => {
         inject: true,
         name: "Another Text Editor",
         short_name: "Text Editor",
-        description: "A text editor",
+        description: "A super cool text editor application",
         background_color: "#225ca3",
         theme_color: "#225ca3",
         start_url: "./",

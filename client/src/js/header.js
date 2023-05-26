@@ -9,4 +9,6 @@ just another text editor
 */                          
 `;
 
+console.log("Header loaded");
+
 export { header };
