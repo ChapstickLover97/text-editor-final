@@ -13,6 +13,9 @@
         "express": "^4.17.1"
     },
     "devDependencies": {
-        "nodemon": "^2.0.4"
+        "html-webpack-plugin": "^5.5.1",
+        "mini-css-extract-plugin": "^2.7.6",
+        "nodemon": "^2.0.4",
+        "webpack": "^5.84.1"
     }
 }
