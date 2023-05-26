@@ -1,13 +1,13 @@
 {
-  "name": "JATE",
+  "name": "text-editor-final",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "heroku-postbuild": "npm install --prefix server && npm run build --prefix client",
-    "start": "npm run build && cd server && node server.js",
-    "server": "cd server nodemon server.js --ignore client",
+    "start": "node server/server.js",
+    "server": "cd server && nodemon server.js --ignore client",
     "build": "cd client && npm run build",
     "install": "cd server && npm i && cd ../client && npm i",
     "client": "cd client && npm start"
